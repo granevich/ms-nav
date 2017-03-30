@@ -2,9 +2,255 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Nav_microsoft</title>
+    <script src="js/http_code.jquery.com_jquery-2.2.4.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+<nav class="parent">
+    <div class="logo"><img src="img/microsoft-gray.png" alt="microsoft_logo"></div>
+    <div class="navigation">
+        <ul>
+            <li class="store" data-role="store"><a class="sub-menu" href="javascript:void(0)">Магазин</a>
+                <div class="sub_nav store" id="sub_nuv_store">
+                    <ul>
+                        <li><a href="javascript:void(0)">Домашня сторинка Магазину</a></li>
+                        <li class="hover "><a href="javascript:void(0)">Office</a>
+                            <div class="sub-sub-menu office">
+                                <ul>
+                                    <li><a href="">Все версии Office</a></li>
+                                    <li><a href="">Програмные комплексы Office</a></li>
+                                    <li><a href="">Все программы Office</a></li>
+                                    <li><a href="">Office для вашего Mac</a></li>
+                                    <li><a href="">Office 265</a></li>
+                                    <li><a href="">Сравнение програмных комплексов</a></li>
+                                    <li><a href="">Языковые пакеты Office</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="hover"><a href="javascript:void(0)">Windows</a>
+                            <div class="sub-sub-menu" style="top: -200%">
+                                <ul>
+                                    <li><a href="">Windows 10 home</a></li>
+                                    <li><a href="">Windows 10 pro</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="hover"><a href="javascript:void(0)">Програми</a>
+                            <div class="sub-sub-menu" style="top: -300%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+
+                                </ul>
+                            </div>
+
+
+                        </li>
+                        <li class="hover"><a href="javascript:void(0)">Игры</a>
+                            <div class="sub-sub-menu"  style="top: -400%" >
+                                <ul>
+                                    <li><a href="">Игры для Windows</a></li>
+                                    <li><a href="">Игры для Windows Phone</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+
+
+
+
+            <li class="store" data-role="products"><a class='sub-menu' href="javascript:void(0)">Продукти</a>
+                <div class="sub_nav products " style="display: none" >
+                    <ul>
+                        <li class="hover "><a href="javascript:void(0)">Програмне забеспечення та службы</a>
+                            <div class="sub-sub-menu" style="top: 0%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+                                    <li><a href="">Программы для Windows Phone</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover "><a href="javascript:void(0)">Пристрои та XBOX</a>
+                            <div class="sub-sub-menu" style="top: -100%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="hover "><a href="javascript:void(0)">Для бизнесу</a>
+                            <div class="sub-sub-menu" style="top: -200%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                </ul>
+                            </div>
+
+
+
+                        </li>
+                        <li class="hover "><a href="javascript:void(0)">Для IT-фахывцыв та розробникив</a>
+                            <div class="sub-sub-menu" style="top: -300%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+                                    <li><a href="">Программы для windows</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="hover "><a href="javascript:void(0)">освита</a>
+                            <div class="sub-sub-menu" style="top: -400%">
+                                <ul>
+                                    <li><a href="">Все программы</a></li>
+
+
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li ><a href="javascript:void(0)">Пидтримка</a></li>
+        </ul>
+    </div>
+    <div class="left_part_nav">
+        <div class="search"><input type="search" placeholder="пошук на сайти Microsoft"><button  class="colp_search" type="submit"></button></div>
+        <div class="cart-wrapper">
+            <div class="cart"></div><span>0</span>
+        </div>
+        <div class="humb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="enter"><span>Вход</span></div>
+    </div>
+
+</nav>
+<div class="nav-small" data-see="hide">
+    <ul>
+        <li class="open">
+            <a href="javascript:void(0)" class="sub-menu"  data-colp="store">Магазин</a>
+            <ul class="second-level-menu store-small">
+                <li><a href="javascript:void(0)">Домашняя страницы Магазину</a></li>
+
+                <li class="sub-menu"><a href="javascript:void(0)" class="sub-menu" data-colp="office">Office</a>
+                    <ul class="third-level-menu office" >
+                        <li><a href="javascript:void(0)">Все версии</a></li>
+                        <li><a href="javascript:void(0)">Програмные комплексы</a></li>
+                        <li><a href="javascript:void(0)">Все программы</a></li>
+                        <li><a href="javascript:void(0)">Office для вашего Mac</a></li>
+                        <li><a href="javascript:void(0)">Office 365</a></li>
+                        <li><a href="javascript:void(0)">Сравнение программныъ комплексов</a></li>
+                        <li><a href="javascript:void(0)">Языковые пакеты</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)" class="sub-menu" data-colp="windows">Windows</a>
+                    <ul class="third-level-menu windows">
+                        <li><a href="javascript:void(0)">Windows 10 Home</a></li>
+                        <li><a href="javascript:void(0)">Windows 10 pro</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)" class="sub-menu" data-colp="progr">Програми</a>
+                    <ul class="third-level-menu progr">
+                        <li><a href="javascript:void(0)">Программы для Windows</a></li>
+                        <li><a href="javascript:void(0)">Программы для Windows Home</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)" class="sub-menu" data-colp="games">Игры</a>
+                    <ul class="third-level-menu games">
+                        <li><a href="javascript:void(0)">Игры для Windows</a></li>
+                        <li><a href="javascript:void(0)">Игры для Windows Phone</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="open" >
+            <a href="javascript:void(0)" class="sub-menu" data-colp="prod">Продукты</a>
+            <ul class="second-level-menu prod-small">
+                <li>
+                    <a href="javascript:void(0)" class="sub-menu" data-colp="services">Програмное обеспечение и службы</a>
+                    <ul class="third-level-menu sevices" >
+                        <li><a href="javascript:void(0)">Windows</a></li>
+                        <li><a href="javascript:void(0)">Office</a></li>
+                        <li><a href="javascript:void(0)">Бессплатная загрузка и безопасность</a></li>
+                        <li><a href="javascript:void(0)">Internet Explorer</a></li>
+                        <li><a href="javascript:void(0)">Microsoft Edge</a></li>
+                        <li><a href="javascript:void(0)">Skype</a></li>
+                        <li><a href="javascript:void(0)">OneNote</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="sub-menu"  data-colp="xbox">Устройства и XBOX</a>
+                    <ul class="third-level-menu xbox" >
+                        <li><a href="javascript:void(0)">Компьютерные Аксессуары</a></li>
+                        <li><a href="javascript:void(0)">Microsoft Lumia</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="sub-menu" data-colp="business">Для бизнеса</a>
+                    <ul class="third-level-menu business" >
+                        <li><a href="javascript:void(0)">Microsoft Asure</a></li>
+                        <li><a href="javascript:void(0)">Windows для бизнесса</a></li>
+                        <li><a href="javascript:void(0)">Office для бизнесса</a></li>
+                        <li><a href="javascript:void(0)">Skype для бизнесса</a></li>
+                        <li><a href="javascript:void(0)">Корпоративные решения</a></li>
+                        <li><a href="javascript:void(0)">Найти поставщика решений</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="sub-menu" data-colp="develop">Для IT-специалистов и разработчиков</a>
+                    <ul class="third-level-menu develop" >
+                        <li><a href="javascript:void(0)">Розробка програм Windows</a></li>
+                        <li><a href="javascript:void(0)">Microsoft Asure</a></li>
+                        <li><a href="javascript:void(0)">MSDN</a></li>
+                        <li><a href="javascript:void(0)">Visual Studio</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="sub-menu" data-colp="edu">Обучение</a>
+                    <ul class="third-level-menu edu" >
+                        <li><a href="javascript:void(0)">Обучение</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+
+
+        </li>
+        <li><a href="">Поддержка</a></li>
+    </ul>
+</div>
+
+<div class="nav-collapse">
+    <input type="text" placeholder="Поиск на Вэб-сайте Microsoft.com"><button type="submit"></button>
+</div>
 </body>
 </html>
